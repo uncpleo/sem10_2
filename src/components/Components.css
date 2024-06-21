@@ -1,0 +1,15 @@
+.componente1{
+    display: flex;
+    background-color: blue;
+    height: 60%;
+    width: 60%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+}
