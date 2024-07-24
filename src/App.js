@@ -37,10 +37,9 @@ function App() {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <h2>EJERCICIO N°1</h2>
-      <Component1 color={color1} onClick1={changeColors1} />
-      <Component2 color={color2} onClick2={changeColors2} />
-      <Component3 color={color3} onClick3={changeColors3} />
+      <Component1 color={color1} onClick1={changeColors4} />
+      <Component2 color={color2} onClick2={changeColors4} />
+      <Component3 color={color3} onClick3={changeColors4} />
     </div>
   );
 }
